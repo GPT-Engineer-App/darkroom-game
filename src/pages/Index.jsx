@@ -20,6 +20,11 @@ const Index = () => {
             Play Now
           </Button>
         </Link>
+        <Link href="http://adarkroom.doublespeakgames.com/" isExternal>
+          <Button rightIcon={<FaExternalLinkAlt />} colorScheme="teal">
+            Play Now
+          </Button>
+        </Link>
       </VStack>
     </Container>
   );
